@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr>
+    
+    <form>
+        <label for="fullname">Full Name:</label> <br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email Address:</label> <br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        <br><br>
+
+        <label for ="password">Password:</label> <br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label>Gender:</label> <br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+        <br><br>
+
+        <label>Skills:</label> <br>
+        <input type="checkbox" id="C++" name="skills" value="C++"> 
+        <label for="C++">C++</label> <br>
+        <input type="checkbox" id="Python" name="skills" value="Python"> 
+        <label for="Python">Python</label> <br>
+        <input type="checkbox" id="HTML" name="skills" value="HTML">
+        <label for="HTML">HTML</label> <br>
+        <input type="checkbox" id="CSS" name="skills" value="CSS">
+        <label for="CSS">CSS</label> <br>
+        <input type="checkbox" id="JAVASCRIPT" name="skills" value="JAVASCRIPT">
+        <label for="JAVASCRIPT">JAVASCRIPT</label> 
+        <br><br>
+
+        <label for="department">Department:</label>
+        <select id="department"  name="department" required>
+            <option value="">--Select Department--</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="SE">SE</option>
+            <option value="IT">IT</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label> <br>
+        <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here."></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    
+    </form>
+
+    <hr>
+
+    <footer>
+       <p>&copy; 2026 Student Registration. All rights reserved. <br> 
+        Naveed Ahmed [23-54710-3]
+       </p>
+    </footer>
+
+
+</body>
+</html>

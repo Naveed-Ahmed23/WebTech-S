@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Lab Task 03: Tables and Semantic HTML5 Elements -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 03 - Tables and Semantic HTML5 Elements</title>
+</head>
+<body>
+    <!-- Part A: Semantic Page Structure -->
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+    <hr>
+    
+
+    <nav>
+        <a href="#home" title="Go to Home">Home</a> |
+        <a href="#students" title="View Student Table">Students</a> |
+        <a href="#contact" title="Go to Contact">Contact</a>
+    </nav>
+    <br>
+    <hr
+
+    <main>
+        <!-- Section: Introduction -->
+        <section id="home" title="Introduction Section">
+            <h2>Welcome</h2>
+            <p>Welcome to the Student Management System. This system helps organize student records, including IDs, departments, and academic performance.</p>
+        </section>
+       <br>
+       <hr>
+
+        <!-- Part B: Table Creation -->
+        <section id="students" title="Student Information Table">
+            <h2>Student Information</h2>
+            <table border="1">
+                <caption>List of Students</caption>
+                <tr>
+                    <th scope="col">Student ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">CGPA</th>
+                </tr>
+                <tr>
+                    <td>23-54710-3</td>
+                    <td>Naveed Ahmed</td>
+                    <td>CSE</td>
+                    <td>3.98</td>
+                </tr>
+                <tr>
+                    <td>23-54734-3</td>
+                    <td>Ahmad Zubayer Mostafa</td>
+                    <td>CSE</td>
+                    <td>3.96</td>
+                </tr>
+                <tr>
+                    <td>23-54756-3</td>
+                    <td>Rahim Uddin</td>
+                    <td>EEE</td>
+                    <td>3.40</td>
+                </tr>
+                <tr>
+                    <td>23-54778-3</td>
+                    <td>Ayesha Noor</td>
+                    <td>BBA</td>
+                    <td>3.85</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <hr>    
+    </main>
+
+   
+    <footer id="contact" title="Contact Section">
+        <h2>Contact Information</h2>
+        <p>Email: naveed.ahmed@gmail.com</p>
+    </footer>
+
+     <!-- Part C: Accessibility and Attributes used in different sections-->
+
+
+</body>
+</html>

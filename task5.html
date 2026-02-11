@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Lab Task 05: Semantic Webpage with Advanced Forms and Metadata -->
+<html lang="en">
+<head>
+    <!-- Part A: Metadata -->
+    <meta charset="UTF-8">
+    <title>Lab Task 05: Semantic Webpage with Advanced Forms and Metadata</title>
+    <meta name="description" content="Personal academic profile.">
+    <meta name="keywords" content="HTML5, Academic Profile, Forms, Tables, Metadata">
+    <meta name="author" content="Naveed Ahmed">
+</head>
+<body>
+    <!-- Part B: Semantic Page Layout -->
+    <header>
+        <h1>Naveed Ahmed - Academic Profile</h1>
+        <nav>
+            <a href="#biography" title="Go to Biography">Biography</a> |
+            <a href="#education" title="View Education">Education</a> |
+            <a href="#contact" title="Go to Contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <!-- Biography Section -->
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>I am a passionate web development student dedicated to building interactive, accessible, and user-friendly websites. My academic journey reflects a commitment to clean coding practices, problem‑solving, and creating projects that demonstrate both technical skill and practical application.</p>
+        </section>
+        <br>
+        <hr>
+
+        <!-- Education Section with Table -->
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <caption>Academic Records</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc Computer Science</td>
+                        <td>AIUB</td>
+                        <td>2023</td>
+                        <td>3.98 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Mirpur Cantonment Public School & College</td>
+                        <td>2022</td>
+                        <td>5.00 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Mirpur Cantonment Public School & College</td>
+                        <td>2020</td>
+                        <td>5.00 GPA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <hr>
+
+        <!-- Advanced Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name"> <br><br>
+
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"> <br><br>
+
+                <label for="phone">Phone:</label> <br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="Enter 11-digit phone number"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required placeholder="Write your message here..." maxlength="500"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Naveed Ahmed | Contact: naveed.ahmed@gmail.com</p>
+    </footer>
+</body>
+</html>
