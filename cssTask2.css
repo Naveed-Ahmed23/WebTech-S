@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    margin: 2cm;     
+    background-color: #f9f9f9;
+}
+
+form {
+    width: 60%;      
+    margin: 2em auto; 
+    padding: 2rem;   
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+fieldset {
+    margin-bottom: 2vh; 
+    padding: 1em;
+    border: 1px solid #666;
+}
+
+
+h1, legend {
+    color: darkblue; 
+}
+
+div p {
+    font-size: 14px; 
+}
+
+input[type="text"] {
+    border: 2px solid #007BFF; 
+    padding: 5px;
+}
+
+
+input:focus {
+    border-color: green;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+    background-color: #0056b3; 
+    color: #fff;               
+    border: 1px solid #003d80; 
+}

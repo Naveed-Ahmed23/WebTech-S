@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 03 & 05 Combined</title>
+    <meta name="description" content="Personal Academic Profile">
+    <meta name="keywords" content="AIUB, Web Technologies, Portfolio, Student Profile">
+    <meta name="author" content="Naveed Ahmed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssTask3.css">
+</head>
+<body>
+    <header>
+        <h1>Naveed Ahmed - Academic Profile</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <div id="bio-box">
+            <h2>Biography</h2>
+            <p>I am a passionate web development student dedicated to building interactive, accessible, and user-friendly websites.</p>
+        </div>
+
+        <div id="edu-box">
+            <h2>Education</h2>
+            <table>
+                <caption><strong>Academic Records</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BSc Computer Science</td>
+                        <td>AIUB</td>
+                        <td>2023</td>
+                        <td>3.98 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Mirpur Cantonment Public School & College</td>
+                        <td>2022</td>
+                        <td>5.00 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Mirpur Cantonment Public School & College</td>
+                        <td>2020</td>
+                        <td>5.00 GPA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="form-box">
+            <fieldset>
+                <legend><strong>CONTACT ME</strong></legend>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" required>
+                    <br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" maxlength="500"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </fieldset>
+        </div>
+    </main>
+
+    <footer>
+        <p id="line-1">Contact: naveed.ahmed@gmail.com</p>
+        <p id="line-2">2026 Copyright, All Rights Reserved. Developed by Naveed Ahmed</p>
+    </footer>
+</body>
+</html>
