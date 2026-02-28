@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Task 01</title>
+</head>
+<body>
+  <h2>Lab Task 01 js: JavaScript Basics and User Interaction</h2>
+
+  <script>
+    alert("Welcome to Lab Task 01!");
+    console.log("Welcome to Lab Task 01!");
+    document.write("<p>Welcome to Lab Task 01!</p>");
+
+    var studentName = "Naveed";
+    var studentAge = 22;
+
+    var nextAge = studentAge + 1;
+    var message = "Student: " + studentName + ", Age: " + studentAge;
+
+    document.write("<p>" + message + "</p>");
+    document.write("<p>Next year age: " + nextAge + "</p>");
+
+    var num1 = prompt("Enter first number:");
+    var num2 = prompt("Enter second number:");
+
+    num1 = Number(num1);
+    num2 = Number(num2);
+
+    var sum = num1 + num2;
+    var diff = num1 - num2;
+    var product = num1 * num2;
+
+    document.write("<p>Sum: " + sum + "</p>");
+    document.write("<p>Difference: " + diff + "</p>");
+    document.write("<p>Product: " + product + "</p>");
+
+    var checkNum = prompt("Enter a number to check even/odd:");
+    checkNum = Number(checkNum);
+
+    if (checkNum % 2 === 0) {
+      document.write("<p>" + checkNum + " is even.</p>");
+    } else {
+      document.write("<p>" + checkNum + " is odd.</p>");
+    }
+  </script>
+</body>
+</html>
