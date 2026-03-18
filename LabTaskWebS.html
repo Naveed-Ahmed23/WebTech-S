@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveed Ahmed | Portfolio</title>
+  <link rel="stylesheet" href="LabTaskWebS.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Naveed Ahmed</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Hello, I’m <span id="typing-text"></span></h2>
+      <p>Welcome to my portfolio. I love building clean, responsive websites and experimenting with JavaScript interactivity.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div id="project-container"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <input type="text" id="subject" placeholder="Subject">
+        <textarea id="message" placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-status"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Naveed Ahmed | Built with HTML, CSS, JS</p>
+    <button id="scroll-top">⬆ Back to Top</button>
+  </footer>
+
+  <script src="LabTaskWebS.js"></script>
+</body>
+</html>
